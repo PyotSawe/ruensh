@@ -1,0 +1,20 @@
+# Git Ignore
+target/
+Cargo.lock
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+.env
+.env.local
+*.log
+node_modules/
+dist/
+build/
+*.exe
+*.dll
+*.dylib
+.cargo/

@@ -1,0 +1,25 @@
+[package]
+name = "ruensh"
+version = "0.1.0"
+edition = "2021"
+authors = ["RuenSH Contributors"]
+description = "A powerful, ergonomic TUI component library for building interactive terminal interfaces and REPL applications in Rust"
+license = "MIT"
+repository = "https://github.com/namqhorah/ruensh"
+homepage = "https://github.com/namqhorah/ruensh"
+documentation = "https://docs.rs/ruensh"
+readme = "README.md"
+keywords = ["tui", "terminal", "ui", "repl", "interactive"]
+categories = ["command-line-interface", "text-editors"]
+
+[dependencies]
+ratatui = "0.28"
+crossterm = "0.28"
+tokio = { version = "1", features = ["full"] }
+unicode-width = "0.1"
+unicode-segmentation = "1.10"
+serde = { version = "1", features = ["derive"] }
+
+[[example]]
+name = "modal_demo"
+path = "examples/modal_demo.rs"

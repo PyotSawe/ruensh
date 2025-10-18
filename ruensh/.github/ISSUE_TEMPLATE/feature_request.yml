@@ -1,0 +1,50 @@
+name: Feature Request
+description: Suggest an enhancement
+title: "[FEATURE] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an enhancement! Please describe the feature you'd like to see.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What feature would you like to see?
+      placeholder: Clear description of the enhancement
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this feature important?
+      placeholder: What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use Case
+      description: How would you use this feature?
+      placeholder: Describe your use case
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Approaches
+      description: Have you considered alternative solutions?
+
+  - type: checkbox
+    id: search
+    attributes:
+      label: Have you searched for similar requests?
+      description: Please search to see if a similar feature has been requested
+    validations:
+      required: true
