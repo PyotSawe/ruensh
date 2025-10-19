@@ -9,6 +9,14 @@
 
 ## ✨ Features
 
+- **SVG-Inspired Graphics** 🎨 **NEW!** - Futuristic vector-like rendering
+  - Unicode-based shapes (circles, rectangles, lines, paths)
+  - Braille patterns for high-resolution graphics
+  - Futuristic color schemes (CyberPunk, Matrix, Neon Tokyo, Holographic)
+  - Smooth animations (pulse, fade, slide, scale)
+  - Glow effects and gradients
+  - 60 FPS rendering capability
+
 - **Modal Component** - Elegant dialog/confirmation modals with smooth animations
   - Popup animations (appearing/disappearing states)
   - Mouse interaction support (hover, click)
@@ -50,10 +58,14 @@ Add to your `Cargo.toml`:
 ruensh = "0.1"
 ```
 
-### Run the Interactive Demo
+### Run the Interactive Demos
 
 ```bash
+# Modal component demo
 cargo run --example modal_demo
+
+# SVG-inspired futuristic UI demo (NEW!)
+cargo run --example svg_demo
 ```
 
 ### Basic Usage
@@ -210,6 +222,8 @@ impl Component for MyComponent {
 
 ## 📚 Documentation
 
+- [SVG Design Proposal](SVG_DESIGN_PROPOSAL.md) - **NEW!** Vision for futuristic interfaces
+- [SVG Usage Guide](SVG_USAGE_GUIDE.md) - **NEW!** How to use SVG-inspired components
 - [Quick Reference Guide](QUICK_REFERENCE.md) - API reference and keyboard shortcuts
 - [Modal Component Guide](MODAL_DOCUMENTATION.md) - Comprehensive technical guide
 - [Implementation Summary](IMPLEMENTATION_SUMMARY.md) - Technical implementation details
@@ -237,6 +251,7 @@ impl Component for MyComponent {
 Run examples with:
 ```bash
 cargo run --example modal_demo      # Interactive modal demo
+cargo run --example svg_demo        # Futuristic SVG-inspired UI demo (NEW!)
 cargo run --example repl_cli        # REPL-like interface
 ```
 

@@ -9,6 +9,7 @@ pub mod components;
 pub mod layout;
 pub mod style;
 pub mod state;
+pub mod svg;
 
 pub use components::{Component, Element};
 pub use events::{Event, EventHandler};

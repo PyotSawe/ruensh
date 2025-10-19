@@ -23,3 +23,7 @@ serde = { version = "1", features = ["derive"] }
 [[example]]
 name = "modal_demo"
 path = "examples/modal_demo.rs"
+
+[[example]]
+name = "svg_demo"
+path = "examples/svg_demo.rs"
