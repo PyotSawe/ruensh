@@ -7,11 +7,16 @@ mod canvas;
 mod shapes;
 mod effects;
 mod animations;
+mod transitions;
 
 pub use canvas::SvgCanvas;
 pub use shapes::{Shape, Rectangle, Circle, Line, Path, Point};
 pub use effects::{GlowEffect, GradientFill, Filter};
 pub use animations::{Animation, Easing};
+pub use transitions::{
+    Transition, Keyframe, TransitionState, TransitionPresets, 
+    TransitionManager, Interpolate
+};
 
 /// Resolution modes for rendering
 #[derive(Debug, Clone, Copy, PartialEq)]
